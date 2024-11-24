@@ -541,7 +541,7 @@ body{
     }
 
     .newsletter-content{
-        margin: 1rem;
+        /* margin: 1rem; */
     }
 } 
 
@@ -556,11 +556,6 @@ body{
     padding-left: 1.3rem;
 }
 
-@media screen and (min-width:763px) {
-    .newsletter-rightcontent{
-        /* width: 70%; */
-    }
-}
 .heading-para{
     display: flex;
     flex-direction: column;
