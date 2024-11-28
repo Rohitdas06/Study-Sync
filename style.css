@@ -120,9 +120,9 @@ body{
     max-height: 1000px;
 }
 
-@media screen and (min-width:850) {
+@media screen and (max-width:850px) {
     .main-section{
-        /* display: flex; */
+        gap: 1rem;
         flex-direction: column;
     }
 }
@@ -140,6 +140,12 @@ body{
     /* align-items: start; */
     animation: slideFromLeft 1.3s ease forwards;
     opacity: 0;
+}
+
+@media screen and (max-width:850px) {
+    .content-left{
+        align-items: center;
+    }
 }
 
 @keyframes slideFromLeft {
@@ -242,6 +248,14 @@ body{
     align-items: end;
     animation: slideFromRight 1.3s ease forwards;
     opacity: 0%;
+}
+
+@media screen and (max-width:850px) {
+    .content-right{
+        align-items: center;
+        margin: auto;
+
+    }
 }
 
 @keyframes slideFromRight {
@@ -420,6 +434,12 @@ body{
     padding: 1rem 0;
     text-align: center;
 }
+
+/* @media screen and (max-width:850px) {
+    .featurecontainer{
+        margin-right: ;
+    }
+} */
 
 .featurecontent{
     max-width: 800px;
@@ -857,7 +877,7 @@ body{
     font-size: 0.6rem;
 }
 
-@media screen and (max-width:960) {
+@media screen and (maxS-width:960) {
     .footer{
         flex-direction: column;
     }
